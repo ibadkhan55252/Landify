@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 98px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+h3 {
+  font-size: 40px;
+  font-weight: 800px;
+  margin-bottom: 0;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+
+.pb-58 {
+  padding-bottom: 58px;
+}
+.py-22{
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.py-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.pt-64 {
+  padding-top: 64px;
+}
+.pb-64 {
+  padding-bottom: 64px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pt-96 {
+  padding-top: 96px;
+}
+
+.pb-96 {
+  padding-bottom: 96px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.gap-64{
+    gap: 64px;
+}
+.lh-26 {
+  line-height: 26px;
+}
+
+.lh-32 {
+  line-height: 32px;
+}
+.lh-54 {
+  line-height: 54px;
+}
+.lh-64 {
+  line-height: 64px;
+}
+
+.text-purple {
+  color: rgba(140, 48, 245, 1);
+}
+.text-grey {
+  color: rgba(150, 155, 171, 1);
+}
+
+.btn-primary {
+  background: rgba(140, 48, 245, 1);
+}
+
+.btn {
+  padding: 16px 41px;
+  font-size: 20px;
+  color: #ffff;
+  border-radius: 8px;
+  border: none;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  color: rgba(24, 25, 31, 1);
+}
+
+
+/* navbar section start */
+.navbar {
+    gap: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 4px 16px;
+}
+
+.navbar-section .nav-social-wrapper{
+    gap: 12px;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: 1px solid grey;
+}
+/* navbar section end */
+
+/* hero section start */
+.hero-section{
+    background: url(/assests/img/hero-section-bg.png) no-repeat center center/cover;
+}
+/* hero section end */
+
+
+
+
+
+
+
+
+
+/* responsive 768 */
+@media screen and (max-width: 768px) {
+    
+    h1 {
+        font-size: 72px;
+        font-weight: 800;
+        line-height: 98px;
+        margin-bottom: 0;
+      }
+      
+    .clients-section .col-12 {
+        gap: 30px;
+    }
+}
+
+
+
