@@ -172,6 +172,10 @@ body {
 }
 
 /* navbar section start */
+.navbar-section{
+  background-color: #ffff;
+  z-index: 3;
+}
 .navbar {
   gap: 15px;
 }
