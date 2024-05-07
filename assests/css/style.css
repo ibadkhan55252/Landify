@@ -217,7 +217,7 @@ body {
   border: none;
 }
 .stories-section .quote-mark {
-  left: -1px;
+  left: -17px;
   top: -47px;
 }
 .stories-section .card .card-body {
@@ -249,6 +249,7 @@ body {
 /* footer section start */
 .footer-section {
   background: rgba(11, 13, 23, 1);
+  font-size: 16px;
 }
 .footer-section a {
   color: rgba(255, 255, 255, 1);
@@ -637,5 +638,69 @@ body {
     color: #ffff;
     border-radius: 8px;
     border: none;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  h1 {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+  h4 {
+    font-size: 19px;
+    font-weight: 800;
+    margin-bottom: 0;
+  }
+
+  h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+
+  .py-82 {
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+.py-64 {
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+  .mb-32 {
+    margin-bottom: 22px;
+  }
+  .lh-32 {
+    line-height: 22px;
+  }
+  .lh-64 {
+    line-height: 27px;
+  }
+  .btn {
+    padding: 10px 24px;
+    font-size: 20px;
+    color: #ffff;
+    border-radius: 8px;
+    border: none;
+  }
+
+  .pt-96 {
+    padding-top: 46px;
   }
 }
